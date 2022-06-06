@@ -34,4 +34,6 @@ console.log(longestWord);
 ```
 # **Education**
 * **University:** Belarusian National Technical University
-
+# **Languages:**
+* Russian - native speaker
+* English - A2 
