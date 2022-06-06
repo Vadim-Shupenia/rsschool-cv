@@ -1,11 +1,11 @@
 # **Vadim Shupenia**
 
-# **My contact info:**
+# **My contact info**
 * **E-mail:** vadim.shupenia@gmail.com
 * **GitHub:** Vadim-Shupenia
-# **About Me:**
+# **About Me**
 I work as a design engineer. 
-# **Skills**
+# **Skills:**
 * MS offise
 * Creo parametric
 * SolidWorks
@@ -34,6 +34,8 @@ console.log(longestWord);
 ```
 # **Education**
 * **University:** Belarusian National Technical University
-# **Languages:**
+# **Experience**
+not yet
+# **Languages**
 * Russian - native speaker
 * English - A2 
