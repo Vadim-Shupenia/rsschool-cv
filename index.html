@@ -5,11 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>rsschool-cv-html</title>
 </head>
 <body>
-    <div>
-      <p><span class="text-block">this is the text</span> </p>
+  <div class="cv-center">
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <img src="./images/Photo.jpg" alt="Photo" width="264" height="397">
+          <h1>Vadim Shupenia</h1>
+          <h2>leading design engineer</h2>
+        </header>
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="https://www.clipartkey.com/mpngs/m/235-2354177_mail-svg-unread-white-gmail-icon-png.png" alt="gmail" width="30" height="30">
+                <p>vadim.shupenia@gmail.com</p>
+              </li>
+              <li>
+                <img src="https://www.pikpng.com/pngl/b/256-2562286_github-logo-png-github-clipart.png" alt="GitHub" width="30" height="30">
+                <p>Vadim-Shupenia</p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li> Microsoft Office</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+              <li>SolidWorks</li>
+              <li>Creo Parametric</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+                
+              </li>
+              <li>
+                <p class="language-name">English</p>
+                <p>A2</p>
+              </li>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <img src="https://cdn4.iconfinder.com/data/icons/thin-people-users/24/thin-1565_individual_user_one-512.png" alt="About Myself" width="30" height="30">
+            <h3>About Myself</h3>
+          </div>
+          <p>hello</p>
+          <p>I am Vadim</p>
+          <p>how are you</p>
+          <p>good job</p>
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <img src="https://w7.pngwing.com/pngs/244/666/png-transparent-computer-icons-education-teacher-school-doctorate-teacher-angle-class-rectangle.png" alt="Education" width="30" height="30">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Belarusian National Technical University</strong></p>
+          <p>AutoTractor Faculty</p>
+          <p>Years: 2005 - 2010</p>
+          <p>Specialization: mechanical engineer</p>
+        </section>
+        <section class="courses">
+          <div class="sub-header">
+            <img src="https://www.pngitem.com/pimgs/m/25-255735_leadership-training-icon-training-icon-png-transparent-png.png" alt="Courses" width="30" height="30">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>not yet</li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <img src="https://e7.pngegg.com/pngimages/734/59/png-clipart-laptop-showing-signage-computer-icons-programmer-computer-programming-source-code-coder-angle-text.png" alt="Code Icon" width="30" height="30">
+            <h3>Code example</h3>
+          </div>
+          <p><strong>Peak array index KATA from CODEWARS:</strong> Given an array of ints, return the index such that
+            the sum of the elements to the right of that index equals the sum of the elements to the
+            left of that index. If there is no such index, return -1. If there is more than one such index, return the
+            left-most index.</p>
+          <pre>
+            <code>
+  function{color:blue} findLongestWord(text) {
+    let words = text.split(" ");
+    let word = "";
+    // for (let i = 0; i < words.length; i++) {
+    //     if (word.length < words[i].length) {
+    //         word = words[i];
+    //     }
+    // }
+    for (let item of words) {
+        if (word.length < item.length) {
+            word = item;
+        }
+    }
+    return (word);
+    }
+            </code>
+      </aside>
     </div>
+    <footer>
+      <a class="my-github" href="https://github.com/AnnaVoloshina">
+        <img class="github-icon" src="https://www.pikpng.com/pngl/b/256-2562286_github-logo-png-github-clipart.png" alt="Github" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2022</p>
+      <a href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
