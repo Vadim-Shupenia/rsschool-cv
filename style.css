@@ -1,7 +1,7 @@
 :root {
-    --dark-gray-color: #505050;
-    --ligth-gray-color: #777777;
-    --pink-color: #ffd6d2;
+    --dark-green-color: #1f3a14;
+    --ligth-gray-color: #4c4b4b;
+    --green-color: #bfc3b4;
   }
 
 .cv-center {
@@ -14,14 +14,38 @@
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
   }
 
+  .header-menu {
+    height: 40px;
+    font-weight: 700;
+    background-color: #dbd8d8;
+    font-size: 14px;
+  }
+  
+  .header-menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .header-menu__item {
+    display: inline;
+  }
+  
+  .header-menu__link {
+    color: var(--ligth-gray-color);
+    text-align: center;
+    padding: 10px 21.8px;
+    text-decoration: none;
+  }
+
   .two-columns {
     display: flex;
   }
   
   .left-column {
     width: 42%;
-    color: var(--dark-gray-color);
-    background-color: var(--pink-color);
+    color: var(--dark-green-color);
+    background-color: var(--green-color);
   }
   
   .right-column {
@@ -37,7 +61,6 @@
   
   header img {
     margin-bottom: 10px;
-    border: 10px solid var(--dark-gray-color);
   }
   
   header h1 {
@@ -53,7 +76,7 @@
     margin-bottom: 20px;
     letter-spacing: 2px;
   }
-  
+    
   main {
     padding: 0 40px;
   }
@@ -66,7 +89,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #ffffff;
-    background-color: var(--dark-gray-color);
+    background-color: var(--dark-green-color);
   }
   
   main .contacts h3 {
@@ -91,14 +114,9 @@
   
   .contacts a {
     text-decoration: none;
-    color: var(--dark-gray-color);
+    color: var(--dark-green-color);
   }
-  
-  main :not(.contacts) ul {
-    list-style-type: disc;
-    margin-left: 50px;
-  }
-  
+    
   .language-name {
     font-weight: 700;
     text-transform: uppercase;
@@ -119,7 +137,7 @@
     margin-left: 45px;
   }
   
-  .about-myself p:last-of-type {
+  .about-myself  {
     margin-bottom: 0;
   }
 
@@ -142,6 +160,10 @@
     color: var(--ligth-gray-color);
   }
 
+  .education p {
+    margin-left: 45px;
+  }
+
   .education p strong {
     font-weight: 700;
   }
@@ -157,11 +179,6 @@
     color: var(--ligth-gray-color);
   }
   
-  .right-column img.score-img {
-    display: block;
-    margin: 0 auto;
-  }
-
   .code-example p {
     margin-left: 45px;
   }
@@ -182,7 +199,7 @@
     padding: 20px;
     font-size: 0.8rem;
     color: #ffffff;
-    background-color: var(--dark-gray-color);
+    background-color: var(--dark-green-color);
   }
   
   footer a {
