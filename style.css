@@ -1,5 +1,4 @@
-  header {
-    padding: 30px;
-    text-align: center;
-    background-color: #ffffff;
+body {
+    box-sizing: border-box;
+    background-color: #d1b1b5;
   }
