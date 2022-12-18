@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>rsschool-cv-html</title>
+</head>
+<body>
+  <div class="cv-center">
+    <nav class="header-menu">
+      <ul class="header-menu__list">
+          <li class="header-menu__item">
+             <a href="#about" class="header-menu__link">ABOUT MYSELF</a>
+          </li>
+          <li class="header-menu__item">
+              <a href="#education" class="header-menu__link">EDUCATION</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#courses" class="header-menu__link">COURSES</a>
+          </li>
+          <li class="header-menu__item">
+              <a href="#code-example" class="header-menu__link">CODE EXAMPLE</a>
+          </li>
+          <li class="header-menu__item">
+              <a href="#skills" class="header-menu__link">SKILLS</a>
+          </li>
+          <li class="header-menu__item">
+              <a href="#languages" class="header-menu__link">LANGUAGES</a>
+          </li>
+          <li class="header-menu__item">
+              <a href="#contacts" class="header-menu__link">CONTACTS</a>
+          </li>
+      </ul>
+    </nav>
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <img src="./images/Photo.jpg" alt="Photo" width="264" height="397">
+          <h1>Vadim Shupenia</h1>
+          <h2>student RS-School</h2>
+        </header>
+        <main>
+          <section class="contacts" id="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="https://www.clipartkey.com/mpngs/m/235-2354177_mail-svg-unread-white-gmail-icon-png.png" alt="gmail" width="30" height="30">
+                <p>vadim.shupenia@gmail.com</p>
+              </li>
+              <li>
+                <img src="https://www.pikpng.com/pngl/b/256-2562286_github-logo-png-github-clipart.png" alt="GitHub" width="30" height="30">
+                <p>Vadim-Shupenia</p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills" id="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li> Microsoft Office</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+              <li>SolidWorks</li>
+              <li>Creo Parametric</li>
+            </ul>
+          </section>
+          <section class="languages" id="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language-name">English</p>
+                <p>A2</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself" id="about">
+          <div class="sub-header">
+            <img src="https://cdn4.iconfinder.com/data/icons/thin-people-users/24/thin-1565_individual_user_one-512.png" alt="About Myself" width="30" height="30">
+            <h3>About Myself</h3>
+          </div>
+          <p>I live in Minsk. I work as a lead desigh engineer on the factory.</p>
+          <p>I study at RS Schools «JavaScript/Front-end. Stage 0».</p>
+        </section>
+        <section class="education" id="education">
+          <div class="sub-header">
+            <img src="https://w7.pngwing.com/pngs/244/666/png-transparent-computer-icons-education-teacher-school-doctorate-teacher-angle-class-rectangle.png" alt="Education" width="30" height="30">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Belarusian National Technical University</strong></p>
+          <p>AutoTractor Faculty</p>
+          <p>Years: 2005 - 2010</p>
+          <p>Specialization: mechanical engineer</p>
+        </section>
+        <section class="courses" id="courses" >
+          <div class="sub-header">
+            <img src="https://www.pngitem.com/pimgs/m/25-255735_leadership-training-icon-training-icon-png-transparent-png.png" alt="Courses" width="30" height="30">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>not yet</li>
+          </ul>
+        </section>
+        <section class="code-example" id="code-example">
+          <div class="sub-header">
+            <img src="https://e7.pngegg.com/pngimages/734/59/png-clipart-laptop-showing-signage-computer-icons-programmer-computer-programming-source-code-coder-angle-text.png" alt="Code Icon" width="30" height="30">
+            <h3>Code example</h3>
+          </div>
+          <pre>
+            <code>
+  function{color:blue} findLongestWord(text) {
+    let words = text.split(" ");
+    let word = "";
+    // for (let i = 0; i  words.length; i++) {
+    //     if (word.length  words[i].length) {
+    //         word = words[i];
+    //     }
+    // }
+    for (let item of words) {
+        if (word.length  item.length) {
+            word = item;
+        }
+    }
+    return (word);
+    }
+            </code>
+          </pre>  
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/Vadim-Shupenia">
+        <img class="github-icon" src="https://www.pikpng.com/pngl/b/256-2562286_github-logo-png-github-clipart.png" alt="Github" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2022</p>
+      <a href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
